@@ -1,27 +1,19 @@
     <template>
     <div id="app">
-      <h1>Send Props child to parent in Vue Js</h1>
-      <h2>{{ title }}</h2>
-      <Child v-on:changeTitle="updateTitle($event)" />
+      <h1>Life cycle method in Vue Js</h1>
+      <SignUp />
     </div>
     </template>
 
   <script>
-  import Child from "./components/child.vue";
+  import SignUp from "./components/SignUp.vue";
+
 
   export default {
     name: 'App',
     components: {
-    Child,
-    },data(){
-    return {
-      title:"props tutorial"
-    }
-  },methods:{
-    updateTitle(title){
-      this.title=title
-    }
-  }
+    SignUp
+}
   };
   </script>
 
