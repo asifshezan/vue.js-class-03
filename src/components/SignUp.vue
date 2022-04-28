@@ -11,8 +11,8 @@
         <input type="radio" id="male" value="male" v-model="signup.gender" />
         <label for="male">Male</label>
         <input type="radio" id="female" value="female" v-model="signup.gender" />
-        <label for="female">Female</label><br>
-        <button v-on:click="signupuser">Sign Up</button>
+        <label for="female">Female</label><br><br><br>
+        <button v-on:click="signupuser">Sign Up</button><br><br><br><br>
     </div>
 </template>
 <script>
