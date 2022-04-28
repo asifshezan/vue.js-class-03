@@ -3,19 +3,22 @@
       <h1>Life cycle method in Vue Js</h1>
       <SignUp />
       <Login />
+      <LoginValidation />
     </div>
     </template>
 
   <script>
   import SignUp from "./components/SignUp.vue";
 import Login from "./components/Login.vue";
+import LoginValidation from "./components/LoginValidation.vue";
 
 
   export default {
     name: 'App',
     components: {
     SignUp,
-    Login
+    Login,
+    LoginValidation
 }
   };
   </script>
